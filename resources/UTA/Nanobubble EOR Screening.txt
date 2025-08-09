@@ -1,0 +1,111 @@
+Nanobubble EOR Screening
+
+1.) Single Phase Injection 
+
+Experimental Procedure
+Inlet pressure sensor (0–10 bar range with high resolution)
+
+Outlet pressure sensor (optional, but gives you ΔP directly)
+
+Data logger or analog-to-digital interface
+
+Syringe pump or backpressure-regulated gas/liquid drive
+
+
+
+✅ Why Use Pressure Monitoring?
+Metric	What It Tells You
+Injection pressure	Resistance to entry; potential plugging
+ΔP (inlet – outlet)	Flow resistance inside micromodel
+Pressure evolution over time	Stability of flow, signs of jamming or blockage
+
+🔁 Typical Injection Observations
+Scenario	Interpretation
+Constant ΔP at constant flow	Good injectivity, stable nanobubble behavior
+Increasing ΔP over time	Plugging, bubble coalescence, or fouling
+Spikes or oscillations in pressure	Intermittent blocking or bubble clustering
+Much higher ΔP vs. control fluid	Flow resistance due to bubbles or viscosity
+Lower ΔP than control	Possible slip flow, reduced drag (rare)
+
+📊 What to Record
+Parameter	Frequency	Notes
+Inlet pressure (P₁)	1 Hz or better	During entire injection
+Outlet pressure (P₂)	(if available)	Helps detect full ΔP
+Flow rate	Fixed or ramped	Prefer constant for comparability
+Fluid temperature	Optional but useful	
+Time	Always log timestamps	
+
+🔍 Analysis Options
+ΔP vs. time plot: reveals flow stability
+
+ΔP vs. cumulative volume injected: reveals threshold behavior
+
+Compare ΔP curves between:
+
+Brine
+
+Nanobubble brine
+
+Brine + surfactant (if used)
+
+
+
+5. Pass/Fail Criteria
+PASS: Stable pressure, smooth flow, bubbles present in effluent
+
+FAIL: Plugging, unstable ΔP, flow exclusion, bubble collapse
+
+monitor nanobubble stability under confinement
+
+
+##############################################################################################################################################################################
+❌ Why You Can't Assume Pore Size = DLS Bubble Size
+1. DLS Measures Hydrodynamic Diameter
+It reports the average size in solution, weighted by intensity, not by number.
+
+A small fraction of larger bubbles can dominate the DLS signal.
+
+The actual nanobubble population often includes smaller and larger outliers.
+
+→ DLS ≠ strict lower bound for penetrability
+
+2. Pore Entry Requires More Than Size
+Even if a bubble is smaller than a pore throat, it may:
+
+Be deformed or compressed
+
+Coalesce at the entry
+
+Be blocked by surface charge, wettability, or clustering
+
+→ Entry behavior is governed by interfacial physics, not just diameter.
+
+3. Flow Conditions Differ
+DLS is in bulk, stagnant fluid.
+
+In porous media: shear, pressure gradients, and confinement drastically change bubble behavior.
+
+→ Transport ≠ suspension behavior.
+
+✅ What You Can Use DLS For
+DLS Use	Valid?
+Check if bubbles are still present at outlet	✅
+Track size evolution over pressure steps	✅
+Estimate if collapse occurred	✅
+Predict penetration limit from size alone	❌
+
+🧠 Smarter Use of DLS + Pressure
+Use DLS as a binary signal: “Are bubbles reaching the outlet?”
+
+Combine with pressure jump data to infer which zone blocks flow.
+
+
+###############################################################################################################################################################################
+
+
+HPHT DLS would be great for this application!
+
+
+
+
+
